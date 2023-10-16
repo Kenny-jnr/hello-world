@@ -32,7 +32,7 @@ img {
 .details section {
   flex-grow: 1; /* flex box won't grow past its normal size.*/
   flex-basis: 0; /* wont expand based on its content, ie makes them evenly distributed*/
-  background-color: #eee;
+  background: #6d6868;
   padding: 25px;
   border-radius: 20px;
   margin-top: 25px;
