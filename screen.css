@@ -13,9 +13,7 @@ main {
 }
 
 .masthead {
-  background-image: url('images/mac.jpg');
-  background-size: cover;
-  background-position: bottom;
+  background: no-repeat bottom / cover url('images/mac.jpg');
   height: 300px;
   border-radius: 20px;
 }
@@ -32,7 +30,7 @@ img {
 .details section {
   flex-grow: 1; /* flex box won't grow past its normal size.*/
   flex-basis: 0; /* wont expand based on its content, ie makes them evenly distributed*/
-  background: #eee;
+  background: #e9eaec;
   border-radius: 20px;
   margin-top: 25px;
 }
