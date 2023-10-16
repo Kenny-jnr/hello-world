@@ -32,10 +32,18 @@ img {
 .details section {
   flex-grow: 1; /* flex box won't grow past its normal size.*/
   flex-basis: 0; /* wont expand based on its content, ie makes them evenly distributed*/
-  background: #d2d6eb;
+  background: grey;
   padding: 25px;
   border-radius: 20px;
   margin-top: 25px;
+}
+
+h1 {
+  background-image: url('images/Logo.png');
+  background-repeat: no-repeat;
+  font-size: 3em;
+  background-size: 38px;
+  padding-left: 50px;
 }
 
 h2 {
