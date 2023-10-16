@@ -4,6 +4,7 @@ body {
   font-family: Helvetica, sans-serif;
   border-top: 15px solid #424242;
   margin: 0 auto;
+  color: #424242;
 }
 
 main {
@@ -11,6 +12,36 @@ main {
   width: 75%;
 }
 
+.masthead {
+  background-image: url('images/mac.jpg');
+  background-position: bottom;
+  height: 200px;
+  border-radius: 20px;
+}
+
 img {
   width: 100%;
+}
+
+.details {
+  display: flex;
+  gap: 25px; /* gab between contents */
+}
+
+.details section {
+  flex-grow: 1; /* flex box won't grow past its normal size.*/
+  flex-basis: 0; /* wont expand based on its content, ie makes them evenly distributed*/
+  background: #eee;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1.4em;
 }
