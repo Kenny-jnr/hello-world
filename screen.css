@@ -32,10 +32,24 @@ img {
 .details section {
   flex-grow: 1; /* flex box won't grow past its normal size.*/
   flex-basis: 0; /* wont expand based on its content, ie makes them evenly distributed*/
-  background: grey;
+  background: #eee;
   padding: 25px;
   border-radius: 20px;
   margin-top: 25px;
+}
+
+.details section.with-code {
+  padding: 0;
+}
+
+div.no-html {
+  padding: 25px;
+}
+
+div.html {
+  padding: 25px;
+  background: #424242;
+  color: #fff;
 }
 
 h1 {
@@ -43,7 +57,9 @@ h1 {
   background-repeat: no-repeat;
   font-size: 3em;
   background-size: 38px;
-  padding-left: 50px;
+  background-position: center left;
+  padding-left: 55px;
+  margin: 100px 0 25px 0;
 }
 
 h2 {
